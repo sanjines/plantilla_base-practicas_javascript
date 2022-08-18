@@ -1,0 +1,8 @@
+@use '../abstracts/mixins' as m;
+/* ESTILOS DE LAYOUT */
+.l-wrapper {
+  @include m.bp(600) {
+    @include m.width(var(--max-w));
+  }
+}
+/* FIN DE ESTILOS DE LAYOUT */

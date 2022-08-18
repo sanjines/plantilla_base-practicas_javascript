@@ -1,0 +1,123 @@
+@use '../abstracts/functions'as f;
+@use '../abstracts/fonts';
+// @include fonts.font-face(Roboto, "../assets/Roboto/Roboto-BlackItalic");
+@include fonts.font-face(Roboto, "../assets/Roboto/Roboto-Medium");
+@include fonts.font-face(Poppins, "../assets/Poppins/Poppins-Light");
+//-Implementacion de la filosofia smacss para el arbol de carpetas
+
+*,
+*::before,
+*::after {
+  margin:          0;
+  padding:         0;
+  box-sizing:      border-box;
+  text-decoration: none;
+  list-style-type: none;
+  // outline: 1px dashed red; //testing box
+}
+
+html {
+  box-sizing: inherit;
+  // scroll-behavior: smooth;
+}
+
+html,
+body {
+  height:     100%;
+  // overflow-x: hidden;
+  // overflow: hidden;
+}
+
+body {
+  margin:           0;
+  padding:          0;
+  background-color: var(--color-first);
+  color: var(--color-first-text);
+
+  // &:not(h1) {
+  //   color: var(--color-first-text);
+  // }
+
+  font: {
+    family: "Poppins", sans-serif;
+  }
+}
+
+p {
+  //-line-height(espacio entre lineas de texto )predeterminado es de:
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+  font-family: 'Poppins', sans-serif;
+  padding:     1rem 0;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    color: var(--color-secondary-text);
+  }
+}
+
+
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+// a {
+// 	text-decoration : none;
+// 	color : $linkcolor;
+
+// 	&:visited {
+// 		color : $linkcolorvisited;
+// 	}
+
+// 	&:hover {
+// 		text-decoration : underline;
+// 		color : $linkcolorhover;
+// 	}
+
+// 	&:focus {
+// 		outline : thin dotted;
+// 		color : $linkcolorfocus;
+// 	}
+
+// 	&:hover,
+// 	&:active {
+// 		outline : 0;
+// 	}
+// }
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+  // max-width         : 100%;
+  // width:              100%;
+  // height:             auto;
+  // max-inline-size: 100%;
+  // block-size: auto;
+  vertical-align: bottom;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.scroll {
+  scroll-behavior:       smooth;
+  // scroll-padding-top: 64px;
+}

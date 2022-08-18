@@ -1,0 +1,95 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  --color-first:          hsl(202, 87%, 64%);
+  --color-button:         hsl(0, 0%, 17%);
+  --color-button-alt:     hsl(0, 0%, 21%);
+  --color-title:          hsl(0, 0%, 15%);
+  --color-text:           hsl(0, 0%, 35%);
+  --color-first-text:     hsl(210, 100%, 17%);
+  --color-secondary-text: hsl(0, 0%, 94%);
+  --color-text-light:     hsl(0, 0%, 55%);
+  --color-body:           hsl(0, 0%, 99%);
+  --color-container:      #fff;
+  --color-border:         hsl(0, 0%, 94%);
+  --color-bg-link:        hsl(0, 0%, 20%);
+
+  /*=========== Colores Alternativos ===========*/
+
+  --bg-color:            hsl(220, 18%, 78%);
+  // --bg-color-light: hsl(220, 18%, 86%);
+  // --title-color: hsl(220, 8%, 10%);
+  // --text-color: hsl(220, 4%, 32%);
+  // --text-color-light: hsl(220, 4%, 55%);
+  // --body-color: hsl(220, 18%, 99%);
+  // --container-color: hsl(220, 18%, 97%);
+
+  /*========== Colors neomorfism ==========*/
+  --shadow: 0, 0%, 5%;
+  // --color-shadow:         2px 2px 5px var(--shadow);
+  --color-shadow: var(--shadow);
+  --color-gradient-start: #4da7db;
+  --color-gradient-stop:  #5bc6ff;
+  --color-outset-start:   #3c82aa;
+  --color-outset-stop:    #6ff1ff;
+  --color-inset-start:    rgba(0, 0, 0, 0);
+  --color-inset-stop:     rgba(0, 0, 0, 0);
+
+  /*========== Font and typography ==========*/
+  --body-font:         'Roboto', sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size:      1.5rem;
+  --h2-font-size:      1.25rem;
+  --h3-font-size:      1rem;
+  --normal-font-size:  .938rem;
+  --small-font-size:   .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-bold:   700;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-5:  .5rem;
+  --mb-0-75: .75rem;
+  --mb-1:    1rem;
+  --mb-1-5:  1.5rem;
+  --mb-2:    2rem;
+  --mb-2-5:  2.5rem;
+  --mb-3:    3rem;
+  --max-w:   1220px;
+
+  /*========== z index ==========*/
+  --z-back:     -10;
+  --z-base:     1;
+  --z-medium:   10;
+  --z-fixed:    100;
+  --z-superior: 1000;
+
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.5rem;
+    --h1-font-size:      2.25rem;
+    --h2-font-size:      1.5rem;
+    --h3-font-size:      1.25rem;
+    --normal-font-size:  1rem;
+    --small-font-size:   .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+:root {
+  --primario: #D8DFE7;
+  --secundario: #1a1a1a;
+  --celeste-primario: #17CAD0;
+  --contraste: #293333;
+  --fondo-claro: #fff;
+  --text-primario: #292c2c;
+  --text-titulos: #1e1f1f;
+  --text-subtitulo: #0d0f0f;
+  --text-difuminado: #808080;
+}

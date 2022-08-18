@@ -1,0 +1,11 @@
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+### Utilitarios ###
+llave.txt
+
+### VSC ###
+.vscode
